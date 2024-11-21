@@ -1,5 +1,5 @@
 ---
-title: TCP Sequence Number와 ACK
+title: TCP SEQ와 ACK
 date: 2024-11-18 12:00:00
 categories: [Network, TCP]
 tags: [Network, Transport, TCP, CS]
@@ -7,11 +7,11 @@ order : 3
 published: true
 ---
 
-## Sequence Number와 ACK
+## SEQ(Sequence Number)와 ACK(Acknowledgement)
 
 TCP 프로토콜에서 `패킷의 신뢰성과 순서를 보장`하기 위해 `ACK`와 `Sequence Number`를 사용합니다.
 
-## Sequence Number
+## SEQ
 
 `시퀸스 번호(Sequence Number)`는 `데이터의 중복을 방지하고 순서를 식별`하기 위해 사용됩니다.  
 시퀸스 번호는 TCP 연결 시 [3Way Handshake](https://bigsungg.github.io/posts/TCP-3-Way-Handshake%EC%99%80-4-Way-Handshake/#3-way-handshake)를 통해 서로의 ISN을 확인합니다.  
@@ -39,6 +39,6 @@ TCP 헤더에 시퀸스 번호 S를 포함하여 수신자에게 전송하고
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
 > 송신자가 일정 시간 동안 수신자로부터 이전에 보낸 패킷에 대한 `ACK`를 받지 못하면  
-송신자는 `타임아웃`이 발생하여 해당 패킷을 다시 수신자에게 `재전송`합니다.
+송신자는 `타임아웃`이 발생하여 해당 패킷을 다시 수신자에게 `재전송`합니다.  
 {: .prompt-info }
 <!-- markdownlint-restore -->

@@ -29,7 +29,7 @@ published: true
 
 `4 Way Handshake`는 TCP에서 클라이언트와 서버의 연결 종료를 위해 거치는 과정을 의미합니다.  
 
-### 4Way Handshake 과정
+### 4 Way Handshake 과정
 
 ![Desktop View](/assets/img/TCP/tcp_4_way_handshake.png)
 
