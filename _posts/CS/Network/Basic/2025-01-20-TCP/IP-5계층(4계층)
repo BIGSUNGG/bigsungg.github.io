@@ -1,0 +1,32 @@
+---
+date: 2025-01-20T12:00:00.000Z
+categories:
+  - Network
+  - Basic
+tags:
+  - Network
+  - Basic
+  - CS
+order: 2
+published: true
+---
+## TCP/IP 4계층과 5계층
+
+TCP/IP 4계층과 5계층은 OSI 7계층 모델이 실무적으로 이용하기 복잡하기 때문에,  
+더 실용적이고 간단한 모델로서 사용되고 있습니다.
+
+![TCP_IP_Layer.png]({{site.baseurl}}/assets/img/Basic/TCP_IP_Layer.png)
+
+### TCP/IP 4계층
+
+TCP/IP 4계층으로 표현되는 모델을 Original TCP/IP Model 라고 하며,  
+TCP/IP 4계층에서는 OSI 7계층 모델에서  
+응용 계층과 표현 계층, 세션 계층을 한 번에 응용 계층으로 표현하고  
+또한, 네트워크 계층을 인터넷 계층으로 표현하고  
+물리 계층과 데이터 링크 계층을 네트워크 액세스 계층이라고 표현합니다.
+
+### TCP/IP 5계층
+
+TCP/IP 5계층으로 표현되는 모델을 TCP/IP Updated Model 라고 하며,  
+전 세계적 표준으로 사용되고 있는 모델입니다.  
+TCP/IP 4계층과의 차이점으로는 물리 계층과 데이터 링크 계층을 따로 표현한다는 차이점이 있습니다.
